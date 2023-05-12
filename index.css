@@ -1,0 +1,90 @@
+
+html {
+    height: 100%;
+  }
+
+body{
+    background-image: url("images/village.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    padding: 0 100px;
+}
+
+.Intro {
+  background: #08040290;
+  color: white;
+  padding: 100px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 24px;
+  display: none;
+}
+
+.score_container{
+
+    background: #08040290;
+    color: white;
+    padding: 10px 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    flex: 0.8 0.8 400px;
+   
+   
+  }
+  .scores{
+    display: flex;
+    justify-content: space-between;
+  }
+.game_container{
+  flex: 1 1 400px;
+}
+
+.choice_container{
+  background: #08040290;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 24px;
+  margin:10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.options_container{
+    background: #08040290;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 24px;
+  margin:10px 0;
+  display: flex;
+ justify-content: space-around;
+}
+.buttons_container{
+  background: #08040290;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 24px;
+  margin:10px 0;
+  display: flex;
+
+
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  
+}
+img{
+  height: 150px;
+  width: 150px;
+}
