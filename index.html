@@ -14,28 +14,35 @@
      
     <div class="intro">
         Hello traveller, welcome to the  villlage
-       <button>Challenge</button>
+       <button id="challenge" >Challenge</button>
     </div>
     <div class="game_container">
 
       <div class="score_container">
         <strong>scores</strong>
         <div class="scores">
-          <div class="score_man">Traveller: 2</div>
-          <div class="score_man">Villager:  3</div>
+          <div id="score_player">Traveller: 0</div>
+          <div id="score_Computer"> Villager:  0</div>
         </div>
       </div>
-   
+      
       <div class="choice_container">
-        <div class="choice_man card"><img src="images/rock.jpg">rock</div>
-        <div class="choice_man card"><img src="images/paper.jpg">paper</div>
+        <div class=" choice card"> <img  id="choice_player_Image"src="images/rock.jpg">
+          <p id="choice_player_text">none</p></div>
+            <div class="result_container">
+            Game Result :
+            <div id="result_text"></div>
+            </div>
+          <div class=" choice card"> <img  id="choice_computer_Image"src="images/rock.jpg">
+            <p id="choice_computer_text">none</p></div>
+       
       </div>
 
        <div class="choosing_section">
           <div class="options_container">
-              <div class="option card"><img src="images/rock.jpg">rock</div>
-              <div class="option card"><img src="images/paper.jpg">paper</div>
-              <div class="option card"><img src="images/scissors.jpg">scissors</div>
+              <div class="option rock card"><img src="images/rock.jpg">rock</div>
+              <div class="option  paper card"><img src="images/paper.jpg">paper</div>
+              <div class="option scissors card"><img src="images/scissors.jpg">scissors</div>
           </div>
 
           <div class="buttons_container">

@@ -15,16 +15,29 @@ body{
     padding: 0 100px;
 }
 
-.Intro {
+.intro {
   background: #08040290;
   color: white;
   padding: 100px;
   border-radius: 20px;
   text-align: center;
   font-size: 24px;
+   display: none;
+   margin:10px 0;
+}
+.result_container {
+ 
+  color: white;
+  padding: 10px 100px;
+  text-align: center;
+  font-size: 24px;
+  flex: 0.8 0.8 400px;
   display: none;
 }
-
+#result_text{
+  font-size: 32px;
+  padding:2px;
+}
 .score_container{
 
     background: #08040290;
@@ -34,8 +47,7 @@ body{
     text-align: center;
     font-size: 24px;
     flex: 0.8 0.8 400px;
-   
-   
+    margin-top: 40px;
   }
   .scores{
     display: flex;
@@ -48,13 +60,13 @@ body{
 .choice_container{
   background: #08040290;
   color: white;
-  padding: 10px 50px;
+  padding: 30px 64px;
   border-radius: 20px;
   text-align: center;
   font-size: 24px;
   margin:10px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .options_container{
     background: #08040290;
