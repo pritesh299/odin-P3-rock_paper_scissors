@@ -13,7 +13,7 @@
 <body>
      
     <div class="intro">
-        Hello traveller, welcome to the  villlage
+      <div><span class="greeting">  </span></div>
        <button id="challenge" >Challenge</button>
     </div>
     <div class="game_container">
@@ -27,33 +27,35 @@
       </div>
       
       <div class="choice_container">
-        <div class=" choice card"> <img  id="choice_player_Image"src="images/rock.jpg">
+        <div class=" choice card"> <img  id="choice_player_Image"src="images/rock.png">
           <p id="choice_player_text">none</p></div>
             <div class="result_container">
-            Game Result :
-            <div id="result_text"></div>
+          Game Result :
+            <div id="result_text"><span id="result_text_ani">hi</span></div>
+             <div id="result_Final_text" ><span id="result_Final_text_ani"></span></div>
             </div>
-          <div class=" choice card"> <img  id="choice_computer_Image"src="images/rock.jpg">
+          <div class=" choice card"> <img  id="choice_computer_Image"src="images/rock.png">
             <p id="choice_computer_text">none</p></div>
        
       </div>
 
        <div class="choosing_section">
           <div class="options_container">
-              <div class="option rock card"><img src="images/rock.jpg">rock</div>
-              <div class="option  paper card"><img src="images/paper.jpg">paper</div>
-              <div class="option scissors card"><img src="images/scissors.jpg">scissors</div>
+              <div class="rock card"><img  class="option"src="images/rock.png">rock</div>
+              <div class=" paper card"><img  class="option"src="images/paper.png">paper</div>
+              <div class="scissors card"><img  class="option"src="images/scissors.png">scissors</div>
           </div>
 
           <div class="buttons_container">
-              <button class="play_again">Challenge once again</button>
-              <button class="reset"> use skill: Time reverse</button>
+              <button class="Reset">Challenge once again</button>
+             
            </div>
     
         </div>
     </div>  
- <script src="index.js">
-   
- </script>   
+ <script src="index.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>greeting()</script>
+  
 </body>
 </html>
