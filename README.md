@@ -1,1 +1,1 @@
-a gir repo
+a git repo
